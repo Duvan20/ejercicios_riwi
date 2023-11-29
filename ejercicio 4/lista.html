@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <meta charset="UTF-8">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button:hover{
+        animation: pulse;
+        animation-duration: 1s;
+    }
+</style>
+<body>
+    <center>
+    <h1 class="animate__animated animate__rubberBand">Listado de productos registrados</h1>
+    </center>
+    <button class="animate__animated animate__rubberBand" style="background-color: red;width: 500px;"><a href="./lista.html">Listar productos</a></button>
+    <br>
+    <br>
+    <button class="animate__animated animate__rubberBand" style="background-color: red;width: 500px;"><a href="./crear.html">Crear nuevo producto</a></button>
+    <br>
+    <br>
+    <button class="animate__animated animate__rubberBand" style="background-color: red;width: 500px;"><a href="./usuarios.html">lista de usuarios</a></button>
+    <table  align="center" border="1" style="width: 800px;">
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>precio</th>
+                <th>Cantidad</th>
+                <th>Descripcion</th>
+                <th>Lote</th>
+                <th>Acciones</th>
+            </tr>
+            
+
+            <tr align="center">
+                <td><img src="./panela.jpeg" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>panela</td>
+                <td>5000</td>
+                <td>5</td>
+                <td>color cafe y duro</td>
+                <td>00011</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand" style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./papa.jpg" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>papa</td>
+                <td>2500</td>
+                <td>10</td>
+                <td>redondo</td>
+                <td>00002</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button style="background-color: red;" class="animate__animated animate__rubberBand">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./aguacate.jpg" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>Aguacate</td>
+                <td>6000</td>
+                <td>10</td>
+                <td>Color verde</td>
+                <td>00005</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand" style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./limon.jpeg" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>limon</td>
+                <td>2000</td>
+                <td>5</td>
+                <td>verde oscuro</td>
+                <td>00012</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand" style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./manzana.webp" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>manzana</td>
+                <td>5000</td>
+                <td>1</td>
+                <td>color rojo claro</td>
+                <td>00013</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" style="background-color: white;"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand" style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./papaya.webp" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>papaya</td>
+                <td>6000</td>
+                <td>4</td>
+                <td>color naranja palido</td>
+                <td>0005</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button  class="animate__animated animate__rubberBand"style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><img src="./zanahoria.jpg" alt="" style="border-radius: 50%; width: 100px;"></td>
+                <td>zanahoria</td>
+                <td>1000</td>
+                <td>5</td>
+                <td>color cafe y duro</td>
+                <td>000005</td>
+                <td>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./editar.html" style="background-color: white;"><i class="fa-solid fa-file-pen"></i></a>
+                    </button>
+                    <button class="animate__animated animate__rubberBand">
+                        <a href="./lista.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                    <button  style="background-color: red;">
+                        <a href="./eliminar.html" style="color: white;"><i class="fa-solid fa-trash"></i> </a>
+                    </button>
+                    
+                </td>
+            </tr>
+            
+ 
+
+            
+        </thead>
+
+    </table>
+    
+</body>
+</html>
